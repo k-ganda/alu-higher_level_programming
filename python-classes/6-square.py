@@ -18,7 +18,6 @@ class Square:
 
         @property
         def size(self):
-            """Get/set the current size of the square."""
             return (self.__size)
 
 
@@ -33,7 +32,6 @@ class Square:
 
         @property
     def position(self):
-        """Get/set the current position of the square."""
         return (self.__position)
 
 
@@ -53,10 +51,8 @@ class Square:
 
     def my_print(self):
         if self.__size == 0:
-            print("")
+            print()
             return
-
-
         [print("") for i in range(0, self.__position[1])]
         for i in range(0, self.__size):
             [print(" ", end="") for j in range(0, self.__position[0])]
