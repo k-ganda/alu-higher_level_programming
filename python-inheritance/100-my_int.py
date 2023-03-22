@@ -2,7 +2,7 @@
 """Defines a class myInt that inherits from int."""
 
 
-class myInt(int):
+class MyInt(int):
     """Invert int operators == and !=."""
 
 
