@@ -1,8 +1,6 @@
-#2-matrix_divided.txt
-
-==================================
-How to use 2-matrix_divided.py
-==================================
+==============================
+How to Use 2-matrix_divided.py
+==============================
 
 This module defines a matrix division function ``matrix_divided(matrix, div)``.
 
@@ -10,11 +8,11 @@ Usage
 =====
 
 ``matrix_divided(...)`` returns a new matrix that is a copy of the parameter
-``matrix`` with all it's elements divided by ``div``
+``matrix`` with all elements divided by ``div``.
 
 ::
 
-    >>>matrix_divided=__import__('2-matrix_divided').matrix_divided
+    >>> matrix_divided = __import__('2-matrix_divided').matrix_divided
     >>> matrix = [
     ...     [3, 6, 9],
     ...     [12, 15, 18]
