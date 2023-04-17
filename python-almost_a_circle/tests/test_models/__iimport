@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-"""Unit testing of base class."""
 
 
-import os
-from unittest import TestCase
+
+m unittest import TestCase
 from models.base import Base
 from models.rectangle import Rectangle
 from models.square import Square
@@ -70,4 +69,4 @@ class TestBase(TestCase):
         self.assertEqual(Base.from_json_string(None), [])
         self.assertEqual(Base.from_json_string('[{"id": 89}]'), [{'id': 89}])
         self.assertEqual(type(Base.from_json_string('[{"id": 89}]')), list)
-        self.assertEqual(Base.from_json_string("[]"), [])
+        self.assertEqual(Base.from_json_string("[]"), []
