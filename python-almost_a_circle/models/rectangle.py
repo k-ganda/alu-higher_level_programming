@@ -48,7 +48,7 @@ class Rectangle(Base):
             raise ValueError("height must be > 0")
         self.__height = value
 
-     @property
+    @property
     def x(self):
         """x"""
         return self.__x
@@ -93,4 +93,4 @@ class Rectangle(Base):
     def __str__(self):
         """returns[Rectangle]"""
         return "[Rectangle] ({}) {}/{} - {}/{}" \
-                .format(self.id, self.x, self.y, self.width, self.height)
+            .format(self.id, self.x, self.y, self.width, self.height)
